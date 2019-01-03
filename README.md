@@ -1,18 +1,15 @@
 # TeensyCam-HW
 Hardware design of TeensyCam - a stereo camera module based on MT9V034 sensor and Teensy3.6 microcontroller board.
 
-Created using Altium Designer software suite.
-
 ![TeensyCam stereo camera module](https://github.com/icboredman/TeensyCam-HW/blob/master/teensycam_front_tiny.jpg)
 
 #### _Status:_
 * mature (more-or-less)
 
 ## Features:
-* Built using [MCUXpresso IDE](http://www.nxp.com/mcuxpresso/ide/download) 10.2
-* Runs on [Teensy 3.6](https://www.pjrc.com/store/teensy36.html) microcontroller board attached to TeensyCam module
-* Configures two connected MT9V034 imaging sensors via I2C interface
-* Triggers simultaneous image capture, hardware synchronized
+* Created using [Altium Designer](https://www.altium.com/altium-designer/) software suite
+* Main components: two MT9V034 imaging sensors + [Teensy 3.6](https://www.pjrc.com/store/teensy36.html) microcontroller board
+* Hardware synchronized simultaneous image capture
 * Stereo baseline: 8 cm
 * Resolution: 720 x 480 (vertical can be reduced to save bandwidth)
 * Image format: raw, uncompressed, 10 bits per dot (monochrome)
