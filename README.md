@@ -26,6 +26,12 @@ Module schematics diagram: [PDF](https://github.com/icboredman/TeensyCam-HW/blob
 
 Teensy3.6 USB high speed device mode connetion diagram: [PNG](https://github.com/icboredman/TeensyCam-HW/blob/master/Schematic36_USBHS.png)
 
+---
+### Firmware
+MCUXpresso-based embedded software project: https://github.com/icboredman/TeensyCam-SW
+
+### Software
+ROS node running on host computer: https://github.com/icboredman/camera_node
 
 ---
 More info in my blog page: https://BoredomProjects.net/index.php/projects/robot-navigation-using-stereo-vision-part-2
